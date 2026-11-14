@@ -1,0 +1,17 @@
+:root { color-scheme: dark; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #05060d; color: #cfe3ff; }
+.login { display: grid; place-items: center; min-height: 100vh; gap: 12px; }
+.login h1 { font-family: 'Unbounded', system-ui; letter-spacing: .04em; }
+.login input, .login button { padding: 10px 14px; border-radius: 8px; border: 1px solid #1e2a44; background: #0d1424; color: inherit; font-size: 16px; }
+.login button, .barra button { background: #1f6feb; border: none; color: #fff; cursor: pointer; }
+.chat { display: grid; grid-template-rows: 1fr auto auto; height: 100vh; }
+.mensajes { list-style: none; padding: 16px; margin: 0; overflow-y: auto; display: flex; flex-direction: column; gap: 8px; }
+.mensajes li { max-width: 70%; padding: 8px 12px; border-radius: 12px; background: #0d1424; border: 1px solid #1e2a44; }
+.mensajes li.mio { align-self: flex-end; background: #1f6feb; border-color: #1f6feb; }
+.mensajes li.sistema { align-self: center; background: transparent; border: none; color: #7b8bb0; font-style: italic; font-size: 13px; }
+.mensajes small { display: block; opacity: .6; font-size: 11px; margin-top: 4px; }
+.mensajes img { max-width: 240px; border-radius: 8px; display: block; margin-top: 6px; }
+.escribiendo { height: 18px; padding: 0 16px; margin: 0; font-size: 12px; color: #7b8bb0; }
+.barra { display: flex; gap: 8px; padding: 12px; border-top: 1px solid #1e2a44; background: #0d1424; }
+.barra input { flex: 1; padding: 10px; border-radius: 8px; border: 1px solid #1e2a44; background: #05060d; color: inherit; }
+.barra button { padding: 10px 18px; border-radius: 8px; }
